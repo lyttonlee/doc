@@ -10,3 +10,9 @@ spring:
 mybatis:
   config-location: classpath:config/mybatis-config.xml
   mapper-locations: classpath:mapper/*.xml
+
+config:
+  jwt:
+    secret: huilicool
+    expire: 24 * 3600 * 1000
+    header: token
